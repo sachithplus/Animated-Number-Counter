@@ -18,3 +18,24 @@ left: 50%;
 display: flex;
 
 }
+.container{
+    width: 28vmin;
+    height: 28vmin;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    color: #18f98f;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+span.num{
+    color: #ffffff;
+
+}
+span.text{
+    color: #e0e0e0;
+}
