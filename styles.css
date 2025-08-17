@@ -80,6 +80,34 @@ align-items: stretch;
     gap: 30px;
 }
 
+.container{
+width:calc(50% - 40px);
+
+ font-size: 14px;
+
+
+
+}
+
+}
+
+@media screen and (max-width: 480px){
+   .wrapper{
+    width: 100%;
+    gap: 15px;
+   }
+
+.container{
+    width: 100%;
+    font-size: 8px;
+    left: 0;  
+    top: auto;
+    transform: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
 
 }
     
